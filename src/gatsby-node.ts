@@ -105,10 +105,16 @@ export const createPages = async (
     ref = DEFAULT_REF,
     store: storeFields,
     query,
+    uri,
     normalizer,
   } = pluginOptions
-
-  const result = await graphql(query)
+  const client = new ApolloClient({
+    link: new HttpLink({ uri, fetch }),
+    cache: new InMemoryCache(),
+});
+  const result = await client.query({
+    query: gql(query)
+})
 
   if (result.errors) {
     reporter.error(
