@@ -25,10 +25,10 @@
     "release": "standard-version"
   },
   "author": "Angelo Ashmore",
-  "homepage": "https://github.com/angeloashmore/gatsby-plugin-local-search",
+  "homepage": "https://github.com/sktripamer/gatsby-plugin-local-search",
   "repository": {
     "type": "git",
-    "url": "https://github.com/angeloashmore/gatsby-plugin-local-search.git"
+    "url": "https://github.com/sktripamer/gatsby-plugin-local-search.git"
   },
   "keywords": [
     "gatsby",
