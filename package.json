@@ -1,5 +1,5 @@
 {
-  "name": "gatsby-plugin-local-search-apollo",
+  "name": "gatsby-plugin-local-search",
   "description": "Gatsby plugin for providing client-side search for data available in Gatsby's GraphQL layer using a variety of engines",
   "version": "2.0.1",
   "license": "MIT",
