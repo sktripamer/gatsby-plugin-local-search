@@ -113,7 +113,7 @@ export const createPages = async (
     cache: new InMemoryCache(),
 });
   const result = await client.query({
-    query: gql(query)
+    query: gql`${query}`
 })
 
   if (result.errors) {
