@@ -9,7 +9,8 @@ import {
 } from 'gatsby'
 import { pick } from 'lodash'
 import { pascalCase } from 'pascal-case'
-
+import {ApolloClient, gql, HttpLink, InMemoryCache } from "@apollo/client"
+import fetch from "cross-fetch"
 import {
   IndexableDocument,
   NodeType,
